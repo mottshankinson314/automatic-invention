@@ -1,0 +1,7 @@
+import itertools
+
+items = [1, 2, 3]
+
+permutations = list(itertools.permutations(items))
+for perm in permutations:
+    print(perm)
